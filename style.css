@@ -1,0 +1,40 @@
+* {
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+.h3-title {
+    margin: 20px 0;
+    font-size: 2em;
+}
+#person {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transform: rotate(180deg);
+}
+#person-img{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+#room {
+    z-index: -1;
+    border: 2px solid #000;
+    width: 560px;
+    height: 560px;
+    background-image: linear-gradient(transparent 98%, #000 98%),
+                linear-gradient(90deg, transparent 98%, #000 98%);
+    background-size: 80px 80px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
